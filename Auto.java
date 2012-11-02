@@ -65,8 +65,7 @@ public class Auto{
 			case 1:
 				if(velocidad > -1 && velocidad < 61){
 
-				}
-				else if(velocidad > -11 && velocidad < 0){
+				}else if(velocidad > -11 && velocidad < 0){
 					velocidad = 0;
 				}else if(velocidad > 60 && velocidad < 71){
 					velocidad = 60;
