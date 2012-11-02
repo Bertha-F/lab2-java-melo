@@ -23,9 +23,3 @@ velocidad se establece a 120kph, sin embargo, si se frena hasta 50kph entonces e
 * El auto cuenta con los métodos *acelerar, frenar y hacerCambios*.
 * Ud. decide en qué medida aumenta o disminuye la velocidad a medida que acelera o frena.
 * Visualice los valores de aceleración, frenado y cambios en la pantalla.
-
-## Solución:
-
-* Diagrama de clases
-
-![UML](https://cacoo.com/diagrams/YrqAdCVV9cAY4Lz5-71DA3.png "lab2-UML-melo")
