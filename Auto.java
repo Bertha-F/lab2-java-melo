@@ -50,10 +50,13 @@ public class Auto{
 	public void mostrarEstado(){
 		System.out.println();
 		System.out.println(" ----------------------------ESTADO*----------------------------- ");
-		System.out.printf("| %s                                                      |\n", encendido());
+		System.out.printf("| %s                                                      |\n",
+			encendido());
 		System.out.println("|                                                                |");
-		System.out.printf("|    VELOCIDAD  : %.1f                         CAMBIO: %d         |\n", getVelocidad(), cajaDeCambio.getCambio());
-		System.out.printf("|    ACELERACION: %.1f                         FRENO: %.1f        |\n", getAceleracion(), getFrenado());
+		System.out.printf("|    VELOCIDAD  : %.1f                         CAMBIO: %d         |\n",
+			getVelocidad(), cajaDeCambio.getCambio());
+		System.out.printf("|    ACELERACION: %.1f                         FRENO: %.1f        |\n",
+			getAceleracion(), getFrenado());
 		System.out.println("|                                                                |");
 		System.out.println(" ___________________________----------___________________________ ");
 	}
